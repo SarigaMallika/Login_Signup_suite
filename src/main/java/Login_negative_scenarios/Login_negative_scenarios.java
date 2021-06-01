@@ -16,7 +16,7 @@ public class Login_negative_scenarios extends Generic_function {
 
 
 	@Given("Browser is open")
-	public static void browser_launch() throws IOException {
+	public static void browser_launching() throws IOException {
 		browser_launch();
 		click("welcome_login");
 	}
